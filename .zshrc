@@ -123,3 +123,5 @@ eval $(thefuck --alias)
 
 alias code="/Applications/Visual\ Studio\ Code.app/contents/Resources/app/bin/code"
 alias nv=nvim
+alias vim=nvim
+alias vi=nvim
