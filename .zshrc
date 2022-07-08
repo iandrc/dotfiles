@@ -93,6 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export $VISUAL=nvim
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -116,9 +117,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(fnm env)"
-
-export PATH=$PATH:~/.local/bin
-
 eval $(thefuck --alias)
 
 alias code="/Applications/Visual\ Studio\ Code.app/contents/Resources/app/bin/code"
