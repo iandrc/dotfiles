@@ -91,9 +91,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
 # export MANPATH="/usr/local/man:$MANPATH"
-export $VISUAL=nvim
+# export $VISUAL=nvim
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
